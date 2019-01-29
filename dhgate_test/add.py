@@ -33,7 +33,6 @@ class TestAdd(unittest.TestCase):
 
 if __name__ == '__main__':
   TestAdd().test_tuple()
-  TestAdd().test_list()
   '''
   test_suit = unittest.TestSuite()  # 创建一个测试集合
   # test_suit.addTest(TestAdd("test_list"))  #测试套件中添加测试用例
