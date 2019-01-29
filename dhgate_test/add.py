@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 import unittest
 from Cython.Tests import xmlrunner
 from Cython.Tests.xmlrunner import XMLTestRunner
