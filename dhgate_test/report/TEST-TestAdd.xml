@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestAdd" tests="2" time="0.000">
+	<testcase classname="TestAdd" name="test_list" time="0.000"/>
+	<testcase classname="TestAdd" name="test_tuple" time="0.000"/>
+	<system-out>
+<![CDATA[*****************
+test_list (__main__.TestAdd)
+[1, 2]
+*****************
+test_tuple (__main__.TestAdd)
+(1, 2)]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
