@@ -32,10 +32,12 @@ class TestAdd(unittest.TestCase):
 
 
 if __name__ == '__main__':
+  TestAdd().test_tuple()
+  TestAdd().test_list()
+  '''
   test_suit = unittest.TestSuite()  # 创建一个测试集合
   # test_suit.addTest(TestAdd("test_list"))  #测试套件中添加测试用例
   test_suit.addTest(unittest.makeSuite(TestAdd))  # 使用makeSuite方法添加所有的测试方法
   runner = xmlrunner.XMLTestRunner(output="report")
   runner.run(test_suit)
-  # TestAdd().test_list()
-  # TestAdd().test_tuple()
+  '''
