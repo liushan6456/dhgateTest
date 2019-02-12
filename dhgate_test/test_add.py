@@ -7,13 +7,15 @@ class TestAdd(unittest.TestCase):
   def add(self, a, b):
     return a + b
   def test_list(self):
-    self.assertEqual(add([1], [2]),[1,2])
+    a = add([1], [2])
+    self.assertEqual(a,[1,2])
     print(add([1], [2]))
 
   def test_tuple(self):
     print(add((1,), (2,)))
     #assert add((1,), (2,)) == (1,2)
-    self.assertEqual(add((1,), (2,)), (1,2))
+    b = add((1,), (2,))
+    self.assertEqual(b,(1,2))
 
 
 #if __name__ == '__main__':
