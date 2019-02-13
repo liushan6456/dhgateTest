@@ -4,16 +4,16 @@ import unittest
 # from Cython.Tests import xmlrunner
 # from Cython.Tests.xmlrunner import XMLTestRunner
 class TestAdd(unittest.TestCase):
-  def test_add(self,a, b):
+  def add(self,a,b):
       return a + b
   def test_list(self):
-    a = self.test_add([1], [2])
+    a = self.add([1], [2])
     self.assertEqual(a,[1,2])
     print(a)
 
   def test_tuple(self):
     #assert add((1,), (2,)) == (1,2)
-    b = self.test_add((1,), (2,))
+    b = self.add((1,),(2,))
     print(b)
     self.assertEqual(b,(1,2))
 
